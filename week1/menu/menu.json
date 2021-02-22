@@ -1,0 +1,62 @@
+{
+    "appetizers": [
+        {
+            "itemName": "Capri Salad",
+            "ingredients": ["Mozzarella", "Basil", "Tomatoes"],
+            "description": "A traditional Italian Capri Salad drizzled with Olive Oil and Balsamic Vinegar."
+        },
+        {
+            "itemName": "Green Salad",
+            "ingredients": ["Lettuce", "Cucumber", "Carrot"],
+            "description": "A Classic Green Salad with your choice of dressing.  Choose from a small or large option"
+        }
+    ],
+    "coldSandwiches": [
+        {
+            "itemName": "Tuna Sandwich",
+            "ingredients": ["Whole Grain Bread", "Tuna", "Avocado", "Mayonnaise"],
+            "description": "A Tuna Sandwich mixed with mayonnaise and avocado on a freshly baked whole grain bread ."
+        },
+        {
+            "itemName": "BLT Sandwich",
+            "ingredients": ["White Bread", "Bacon", "Lettuce", "Tomatoe"],
+            "description": "Bacon, Lettuce and Tomatoe sandwich on a hearty freshly baked white bread."
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "itemName": "French Dip",
+            "ingredients": ["Hot Roast Beef", "Melted Provolone", "Horseradish", "French Roll"],
+            "description": "The Classic French Dip Sandwich with Hot Roast Beef, melted provolone cheese, horseradish on a french roll with Au Jus Sauce for dipping."
+        },
+        {
+            "itemName": "Pulled Pork Sandwich",
+            "ingredients": ["Pulled Pork", "BBQ Sauce", "Baked Bread"],
+            "description": "A house favorite, The Pulled Pork Sandwich mixed with our famous housemade BBQ Sauce"
+        }
+    ],
+    "desserts": [
+        {
+            "itemName": "Homemade Cookie",
+            "ingredients": ["Cookie Dough", "Sugar", "Chocolate Chips", "Vanilla Extract"],
+            "description": "Baked fresh daily with our homemade cookie recipe."
+        },
+        {
+            "itemName": "Banana Split",
+            "ingredients": ["Vanilla Ice Cream", "Banana", "Hot Fudge"],
+            "description": "Vanilla ice cream inside a Banana Split dizzled with hot fudge."
+        }
+    ],
+    "drinks": [
+        {
+            "itemName": "Sea Cream Jasmine Green Tea",
+            "ingredients": ["Jasmine Green Tea", "Sea Salt Foam", "Sugar"],
+            "description": "Freshly brewed sweetened Green Tea topped with Sea Cream Foam."
+        },
+        {
+            "itemName": "Strawberry Hibiscus Tea",
+            "ingredients": ["Strawberries", "Rooibos Tea", "Hibiscus Flower"],
+            "description": "Strawberry Hibiscus is a sweet and tangy thirst-quencher that is not only refreshing but also invigorating."
+        }
+    ]
+}
