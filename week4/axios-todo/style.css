@@ -1,0 +1,17 @@
+body {
+    background-color: burlywood;
+}
+img {
+    width: 350px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: 	#006400;
+}
+h2, h3 {
+    text-align: center;
+    color: 	#006400
+}
