@@ -1,3 +1,7 @@
+var location1 = document.getElementById("button2");
+location1.addEventListener("click", planets);
+
+function planets() {
 axios.get('https://rickandmortyapi.com/api/location')
     .then(response => {
         const planets = response.data.results;
@@ -8,3 +12,4 @@ axios.get('https://rickandmortyapi.com/api/location')
         }
     })
     .catch(error => console.log(error))
+}

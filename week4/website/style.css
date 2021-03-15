@@ -13,10 +13,16 @@ h2 {
     font-size: 55px;
     color: burlywood;
 }
+h3 {
+    font-size: 30px;
+    margin-bottom: 0%;
+}
 
 button {
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
     align-content: center;
     padding: 15px;
     font-size: 28px;
