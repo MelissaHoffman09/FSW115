@@ -13,23 +13,3 @@ axios.get('https://rickandmortyapi.com/api/character')
     })
     .catch(error => console.log(error))
 }
-
-  
-  
-/*var Schwifty = document.getElementById("RickandMortyButton");
-Schwifty.addEventListener("click", rick_morty);
-
-function rick_morty() {
-  axios.get("https://rickandmortyapi.com/api/character/").then((response) => {
-    for (let i = 0; i < response.data.results.length; i++) {
-      const name = document.createElement("h2");
-      name.textContent = response.data.results[i].name;
-      document.getElementById("rickmorty").appendChild(name);
-    
-
-      name.style.textDecorationLine = "underline"
-
-    }
-  });
-}
-*/
