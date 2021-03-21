@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    margin-bottom: 2%;
+  }
+  #myTodo {
+    margin: 0%;
+    padding: 2%;
+    background-color: burlywood;
+    text-align: center;
+    border-bottom: 5px double black;
+  }
+  input {
+      padding:10px;
+      border:0;
+      background-color: whitesmoke;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  h3 {
+      padding-bottom: 2%;
+      margin: 0%;
+      font-size: 45px;
+      color: black;
+  }
+  #button1 {
+      background-color: black;
+      color: burlywood;
+      padding: 5px;
+      width: 150px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  #inputComplete {
+      padding:10px;
+      border:0;
+      border-style: none;
+
+  }
+  .todoContainer {
+    background-color: burlywood;
+    text-align: center;
+    border: 5px double black;
+    padding: 2%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    color: black;
+  }
+  .button2 {
+    width: 150px;
+    display: inline-block;;
+    margin: 0 auto;
+    background-color: black;
+    color: burlywood;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .button3 {
+    width: 150px;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: black;
+    color: burlywood;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+  }
