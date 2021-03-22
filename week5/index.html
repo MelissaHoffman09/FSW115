@@ -7,7 +7,7 @@
 <body>
     <div id="main">
         <div>
-          <form id="myTodo" name="myTodo">
+          <form id="myForm" name="myForm">
             <h3 id="postHeader">Todo List</h3>
             <input 
                 type="text" 
@@ -28,13 +28,14 @@
                 placeholder="Price" 
             />
             <br /> <br />
-            <button id="button1">Submit</button>
+            <input type="checkbox" id="inputComplete" />
+            <button id="button">Submit</button>
           </form>
         </div>
 
         <div id="toDoItems"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"></script>
         <script src="app.js"></script>
-      </div>
+    </div>
 </body>
 </html>
