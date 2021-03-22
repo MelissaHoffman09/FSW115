@@ -33,10 +33,12 @@ data.forEach((todo) => {
     let completeButtonText = "";
         completeButton.className = "button3"
         todo.completed
-            ? (completeButtonText = "Incomplete" )
-            : (completeButtonText = "Completed" );
+            ? (completeButtonText = "Completed" )
+            : (completeButtonText = "Imcomplete" );
+
         completeButton.innerText = completeButtonText;
         completeButton.id = todo._id;
+        completeButton.value = todo.completed;
         completeButton.addEventListener("click", updateItem);
     
         todoBox.appendChild(title);
