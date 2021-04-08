@@ -157,7 +157,7 @@ form.addEventListener("submit", function(event) {
 
     axios.post(baseURL, newTodo)
     .then(response => getTodoList())
-    .catch(error => alert("There was a problem posting your new Todo."))
+    .catch(error => alert("Error"))
 
     form.title.value = "";
     form.description.value = "";
@@ -189,7 +189,7 @@ function completeOrDelete(e) {
 
         if (checkBox.checked) {
         checkBox.parentNode.style.textDecoration = "line-through";
-        checkBox.parentNode.style.color = "gray";
+        checkBox.parentNode.style.color = "black";
         checkBox.parentNode.style.fontStyle = "italic";
         } else {
             checkBox.parentNode.style = null;
